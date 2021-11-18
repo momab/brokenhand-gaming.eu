@@ -1,5 +1,6 @@
-# Created by https://www.toptal.com/developers/gitignore/api/laravel
-# Edit at https://www.toptal.com/developers/gitignore?templates=laravel
+
+# Created by https://www.toptal.com/developers/gitignore/api/macos,laravel,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,laravel,visualstudiocode
 
 ### Laravel ###
 /vendor/
@@ -26,4 +27,52 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
-# End of https://www.toptal.com/developers/gitignore/api/laravel
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+!.vscode/*.code-snippets
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,laravel,visualstudiocode
